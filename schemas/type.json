@@ -1,0 +1,17 @@
+{
+  "$id": "type.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Type",
+  "description": "Das Schema für das type-Feld",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "AuthorityResource",
+      "Person",
+      "RoyalOrMemberOfARoyalHouse"
+    ]
+  },
+  "default": true,
+      "minItems": 2
+}
